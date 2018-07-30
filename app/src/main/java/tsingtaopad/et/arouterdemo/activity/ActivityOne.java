@@ -19,7 +19,7 @@ import tsingtaopad.et.arouterdemo.R;
 public class ActivityOne extends AppCompatActivity {
 
     private TextView textView;
-    private Button button ;
+    private Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,24 +27,24 @@ public class ActivityOne extends AppCompatActivity {
         setContentView(R.layout.activity_one);
 
         textView = (TextView) findViewById(R.id.tv);
-        button = (Button) findViewById(R.id.addFragment );
+        button = (Button) findViewById(R.id.addFragment);
 
         //接收参数
         Intent intent = getIntent();
         String key = intent.getStringExtra("key");
 
-        textView.setText( "参数是：" + key);
+        textView.setText("参数是：" + key);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) { // 普通Fragment路由跳转
                 //获取Fragment 实例
-                Fragment fragment = (Fragment) ARouter.getInstance().build( "/com/FragmentOne" ).navigation();
+                Fragment fragment = (Fragment) ARouter.getInstance().build("/com/FragmentOne").navigation();
 
                 //添加Fragment
-                FragmentManager fragmentManager = getSupportFragmentManager() ;
-                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction() ;
-                fragmentTransaction.add(  R.id.fragmentLayout , fragment ) ;
+                FragmentManager fragmentManager = getSupportFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.add(R.id.fragmentLayout, fragment);
                 fragmentTransaction.commit();
             }
         });
