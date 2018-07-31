@@ -10,28 +10,28 @@
         android:id="@+id/bt1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:background="#ffffff"
         android:gravity="center"
         android:padding="10dp"
-        android:text="bt1"
+        android:text="普通Activity路由跳转"
         />
 
     <TextView
         android:id="@+id/bt2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:background="#ffffff"
         android:gravity="center"
         android:padding="10dp"
-        android:text="bt2"
+        android:text="实现像 startActivityForResult（） 功能"
         />
     <TextView
         android:id="@+id/bt3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:background="#ffffff"
         android:gravity="center"
         android:padding="10dp"
@@ -41,31 +41,81 @@
         android:id="@+id/bt4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:background="#ffffff"
         android:gravity="center"
         android:padding="10dp"
-        android:text="bt4"
+        android:text="监听路由过程"
         />
     <TextView
         android:id="@+id/bt5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:background="#ffffff"
         android:gravity="center"
         android:padding="10dp"
-        android:text="bt5"
+        android:text="发起路由并且传递参数"
         />
     <TextView
         android:id="@+id/bt6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:background="#ffffff"
         android:gravity="center"
         android:padding="10dp"
-        android:text="bt6"
+        android:text="原始分组"
+        />
+    <TextView
+        android:id="@+id/bt7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="自定义分组"
+        />
+    <TextView
+        android:id="@+id/bt8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="加载本地html"
+        />
+    <TextView
+        android:id="@+id/bt9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="暴露服务"
+        />
+    <TextView
+        android:id="@+id/bt10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="暴露服务"
+        />
+    <TextView
+        android:id="@+id/bt11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="bt11"
         />
 
 </LinearLayout>
